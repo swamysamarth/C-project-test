@@ -2,9 +2,9 @@
 sorting(){
    int num[20];
    int i, j, a, n;
-   printf("enter number of elements in an array\n");
+   printf("\n enter number of elements in an array\n");
    scanf("%d", &n);
-   printf("Enter the elements\n");
+   printf("\n Enter the elements\n");
    for (i = 0; i < n; ++i)
       scanf("%d", &num[i]);
    for (i = 0; i < n; ++i){
@@ -16,7 +16,7 @@ sorting(){
          }
       }
    }
-   printf("The numbers in ascending order is:\n");
+   printf("\n The numbers in ascending order is:\n");
    for (i = 0; i < n; ++i){
       printf("%d\n", num[i]);
    }
