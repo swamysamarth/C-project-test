@@ -8,6 +8,6 @@ addnumber()
    scanf("%d", &num2);
 
    sum = num1 + num2;
-   printf("Sum of the entered numbers: %d", sum);
+   printf("\n Sum of the entered numbers: %d", sum);
    // return 0;
 }
